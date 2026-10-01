@@ -13,6 +13,7 @@
 * **الخدمات السحابية (Backend/Database):** [Firebase](https://firebase.google.com/)
   * Authentication
   * Firestore Database
+* **هندسة البرمجيات (Architecture):**Clean Architecture
 * **أدوات التطوير المساعدة:** Open Code AI
 
 ---
