@@ -1,17 +1,40 @@
-# firebase_task_1
+# TaskFlow 📝
 
-A new Flutter project.
+تطبيق إدارة مهام (To-Do App) حديث ومتكامل يساعد المستخدمين على تنظيم مهامهم اليومية وسير أعمالهم ببساطة وكفاءة.
 
-## Getting Started
+## 💡 فكرة المشروع
+يهدف **TaskFlow** إلى تسهيل إدارة الأنشطة اليومية من خلال واجهة سلسة ودعم لميزات متقدمة مثل الإشعارات، التجميع، البحث السريع، وتسجيل الدخول المتعدد، مع الاعتماد على الذكاء الاصطناعي أثناء التطوير.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 التقنيات المستخدمة (Tech Stack)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **التقنية الأساسية:** [Flutter](https://flutter.dev/)
+* **الخدمات السحابية (Backend/Database):** [Firebase](https://firebase.google.com/)
+  * Authentication
+  * Firestore Database
+* **أدوات التطوير المساعدة:** Open Code AI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ المميزات الرئيسية (Features)
+
+* **إدارة المهام (CRUD Operations):** إمكانية (إضافة، جلب، عرض، وحذف) المهام بكل سهولة.
+* **مصادقة المستخدمين (Authentication):** تسجيل الدخول عبر Google أو بريد إلكتروني وكلمة سر.
+* **البحث (Search):** إمكانية البحث السريع بين المهام.
+* **الإشعارات (Notifications):** تنبيه المستخدم بالمهام والتذكيرات.
+* **تعدد اللغات (Localization/Translation):** دعم تغيير لغة التطبيق.
+* **الثيمات (Theme):** دعم الوضع الداكن والفيزيائي (Light/Dark Mode).
+
+---
+
+## ⚙️ طريقة التشغيل (Getting Started)
+
+```bash
+# 1. Clone the repository
+git clone [(https://github.com/alkhadraaman-IT/toDoApp)] 
+# 2. Install dependencies
+flutter pub get
+
+# 3. Run the app
+flutter run
