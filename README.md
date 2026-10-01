@@ -32,7 +32,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone [(https://github.com/alkhadraaman-IT/toDoApp)] 
+git clone https://github.com/alkhadraaman-IT/toDoApp
 # 2. Install dependencies
 flutter pub get
 
