@@ -1,0 +1,16 @@
+import 'package:dartz/dartz.dart' hide Task;
+
+import '../../../../core/errors/failures.dart';
+import '../entities/user_entity.dart';
+import '../repositories/auth_repository.dart';
+
+/// حالة استخدام: تسجيل الدخول عبر Google
+class SignInWithGoogleUseCase {
+  final AuthRepository repository;
+
+  SignInWithGoogleUseCase(this.repository);
+
+  Future<Either<Failure, UserEntity>> call() {
+    return repository.signInWithGoogle();
+  }
+}
